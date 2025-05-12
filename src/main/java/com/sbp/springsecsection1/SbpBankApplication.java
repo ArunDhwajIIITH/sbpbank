@@ -8,7 +8,7 @@ public class SbpBankApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbpBankApplication.class, args);
-		System.out.println("Hello SBP");
+		//System.out.println("Hello SBP");
 	}
 
 }
