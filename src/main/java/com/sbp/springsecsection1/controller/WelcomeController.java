@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 
-    @GetMapping("/welcomeS")
+    @GetMapping("/welcome")
     public String sayWelcome() {
         return "Welcome to SBP Bank Security";
     }
